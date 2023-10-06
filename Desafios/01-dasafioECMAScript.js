@@ -59,14 +59,14 @@ const productManager = new ProductManager();
 console.log(productManager.getProducts());
 
 //Agregamos productos
-productManager.addProduct('Computadora', 'computadora HP', 180000, 'sarasa', 'cp122', 50 );
-productManager.addProduct('Computadora', 'computadora HP', 180000, 'sarasa', 'cp123', 50 );
-productManager.addProduct('Compu', 'computadora Ph', 180000, 'sarasa', 'cp124', 50 );
-productManager.addProduct( 'computadora Ph', 180000, 'sarasa', 'cp125', 50 );
+productManager.addProduct('Computadora', 'computadora HP', 180000, 'sarasa', 'cp001', 50 );
+productManager.addProduct('Computadora', 'computadora HP', 180000, 'sarasa', 'cp002', 50 );
+productManager.addProduct('Compu', 'computadora Ph', 180000, 'sarasa', 'cp003', 50 );
+productManager.addProduct( 'computadora Ph', 180000, 'sarasa', 'cp004', 50 );
 
 console.log(productManager.getProducts());
 //validacion de "CODE"
-productManager.addProduct('tv', 'tv SAMSUNG', 500000, 'sarasa', 'cp124', 50)
+productManager.addProduct('tv', 'tv SAMSUNG', 500000, 'sarasa', 'cp003', 50)
 
 //Busqueda de producto por ID
 productManager.getProductById(5);
